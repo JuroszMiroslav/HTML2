@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map Example</title>
+</head>
+<body>
+    <h1>Image Map Example</h1>
+
+    <h2>Server-Side Image Map (ismap)</h2>
+    <a href="server-script.php">
+        <img src="server-side-image.webp" ismap alt="Interaktivní obrázek">
+    </a>
+
+    <h2>Client-Side Image Map (usemap)</h2>
+    <img src="client-side-image.webp" usemap="#image-map" alt="Interaktivní obrázek">
+    <map name="image-map">
+        <area shape="rect" coords="34,44,270,350" href="link1.html" alt="Oblast 1">
+        <area shape="circle" coords="400,200,50" href="link2.html" alt="Oblast 2">
+        <area shape="poly" coords="300,10,450,50,350,150" href="link3.html" alt="Oblast 3">
+    </map>
+</body>
+</html>
