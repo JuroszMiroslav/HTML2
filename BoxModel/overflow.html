@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow Property</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        .visible-box {
+            overflow: visible;
+            background-color: lightblue;
+        }
+        .hidden-box {
+            overflow: hidden;
+            background-color: lightgreen;
+        }
+        .scroll-box {
+            overflow: scroll;
+            background-color: lightcoral;
+        }
+        .auto-box {
+            overflow: auto;
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Overflow Property Examples</h1>
+
+    <div class="container visible-box">
+        <p>Visible: Content goes outside the box if it overflows. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+    </div>
+
+    <div class="container hidden-box">
+        <p>Hidden: Content is cut off if it overflows. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+    </div>
+
+    <div class="container scroll-box">
+        <p>Scroll: Scrollbars are added if the content overflows. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+    </div>
+
+    <div class="container auto-box">
+        <p>Auto: Scrollbars are added only if necessary. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06e73965-a1ac-4273-848f-5b9b7b8bdcd1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/HTML2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BoxModel/box.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BoxModel/overflow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BoxModel/pseudo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/appHtml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/getFlask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/inputsTypes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/postFlask.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/sampleAdvanced.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/sampleGet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/samplePost.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_example2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_gpt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/client-side-image.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/link1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/link2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/link3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/server-side-image.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/positioning/positioning_all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/positioning/positioning_ex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/size/example_L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/size/example_M.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/size/example_large.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/size/example_medium.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/size/example_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/size/example_small.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/size/img_size.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tables/table_sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tables/table_sample2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tables/table_sample3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tables/table_sample4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tables/table_ukol1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tables/table_ukol2.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2heKsPFWQeaDjdW1sOT314341kU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.app.executor": "Run",
+    "Python.appHtml.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/juros/PycharmProjects/HTML2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\juros\PycharmProjects\HTML2" />
+      <recent name="C:\Users\juros\PycharmProjects\HTML2\size" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\juros\PycharmProjects\HTML2" />
+      <recent name="C:\Users\juros\PycharmProjects\HTML2\positioning" />
+      <recent name="C:\Users\juros\PycharmProjects\HTML2\tables" />
+      <recent name="C:\Users\juros\PycharmProjects\HTML2\map" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06e73965-a1ac-4273-848f-5b9b7b8bdcd1" name="Changes" comment="" />
+      <created>1717949309082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717949309082</updated>
+    </task>
+    <servers />
+  </component>
+</project>

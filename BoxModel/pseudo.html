@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes Example</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid black;
+            background-color: lightgray;
+        }
+
+        .box:hover {
+            background-color: lightblue;
+            border-color: blue;
+        }
+
+        .box:active {
+            background-color: lightgreen;
+            border-color: green;
+        }
+
+        .box:focus {
+            background-color: lightcoral;
+            border-color: red;
+            outline: none; /* Aby outline neovlivňoval vizuální styl */
+        }
+
+        .box:first-child {
+            background-color: lightyellow;
+        }
+
+        .box:last-child {
+            background-color: lightpink;
+        }
+
+        .box:nth-child(2) {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .container > .box:not(.exclude) {
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-classes Example</h1>
+
+    <div class="container">
+        <div class="box">First Box</div>
+        <div class="box">Second Box</div>
+        <div class="box">Third Box</div>
+        <div class="box exclude">Excluded Box</div>
+        <div class="box">Last Box</div>
+    </div>
+</body>
+</html>

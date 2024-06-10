@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylování obrázku</title>
+    <style>
+        .styled-image {
+            width: 300px;
+            height: auto;
+            border: 2px solid #000;
+            border-radius: 10px;
+            margin: 20px;
+            display: block;
+            opacity: 0.9;
+            filter: grayscale(50%);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .styled-image:hover {
+            transform: scale(1.1);
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Stylování obrázku</h1>
+    <img src="https://www.zeropixel.cz/media/cache/resolve/zeropixel_product_full_preview/ec/b3/6289ddcda9a4d0b1c9a22aa757a6.png" alt="Popis obrázku" class="styled-image">
+</body>
+</html>

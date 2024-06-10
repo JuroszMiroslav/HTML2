@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulka s různými barvami</title>
+    <style>
+        table {
+            border: 2px solid black; /* Nastavení okraje tabulky */
+            width: 100%;
+            border-collapse: collapse; /* Sloučení okrajů buněk a tabulky */
+        }
+        th, td {
+            border: 1px solid black; /* Nastavení okraje buněk */
+            padding: 10px;
+            text-align: center; /* Zarovnání textu na střed */
+        }
+        /* Specifické barvy pozadí a fontu pro buňky */
+        .cell-1 {
+            background-color: lightblue;
+            color: darkblue;
+        }
+        .cell-2 {
+            background-color: lightgreen;
+            color: darkgreen;
+        }
+        .cell-3 {
+            background-color: lightcoral;
+            color: darkred;
+        }
+        .cell-4 {
+            background-color: lightgoldenrodyellow;
+            color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabulka s různými barvami buněk</h1>
+    <table>
+        <tr>
+            <th class="cell-1">Hlavička 1</th>
+            <th class="cell-2">Hlavička 2</th>
+            <th class="cell-3">Hlavička 3</th>
+            <th class="cell-4">Hlavička 4</th>
+        </tr>
+        <tr>
+            <td class="cell-1">Obsah 1</td>
+            <td class="cell-2">Obsah 2</td>
+            <td class="cell-3">Obsah 3</td>
+            <td class="cell-4">Obsah 4</td>
+        </tr>
+        <tr>
+            <td class="cell-1">Obsah 5</td>
+            <td class="cell-2">Obsah 6</td>
+            <td class="cell-3">Obsah 7</td>
+            <td class="cell-4">Obsah 8</td>
+        </tr>
+    </table>
+</body>
+</html>

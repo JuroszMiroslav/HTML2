@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images Example</title>
+</head>
+<body>
+    <h1>Responsive Images with srcset and sizes</h1>
+    <p>Tento příklad ukazuje, jak používat atributy <code>srcset</code> a <code>sizes</code> pro responzivní obrázky.</p>
+
+    <img
+        srcset="
+            example_S.jpg 480w,
+            example_M.jpg 800w,
+            example_L.jpg 1200w"
+        sizes="
+            (max-width: 600px) 480px,
+            (max-width: 900px) 800px,
+            1200px"
+        src="example-large.jpg"
+        alt="Příklad responzivního obrázku">
+
+    <p>V závislosti na šířce viewportu bude načtena správná verze obrázku.</p>
+</body>
+</html>

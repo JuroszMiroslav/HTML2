@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML stránka s obrázkem a CSS</title>
+    <style>
+        .bordered {
+            padding: 3px;
+            border: 3px double #cecece;
+         }
+        .radius { border-radius: 20px; }
+        .shadow { box-shadow: -6px -6px 6px #a7a7a7; }
+        .center-block {
+            display: block;
+            margin: auto;
+        }
+        .alignleft {
+            float: left;
+            margin-right: 15px;
+        }
+
+        .alignright {
+            float: right;
+            margin-left: 15px;
+        }
+                .shadow: hover {
+            box-shadow: 6px 6px 6px #a7a7a7;
+            cursor: pointer;
+        }
+
+        .effect:hover {
+            opacity: .5;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vítejte na mé stránce</h1>
+    <p>Toto je jednoduchá HTML stránka s obrázkem načteným z webu a CSS.</p>
+    <img src="https://www.maxmax.cz/images/detailed/400/Detsky_obrazek_MAX_-_vzor_136-uprav.jpg" alt="Popis obrázku"
+         width="1200" height="400"
+        class="alignright radius bordered shadow">
+    <img src="https://www.maxmax.cz/images/detailed/400/Detsky_obrazek_MAX_-_vzor_136-uprav.jpg" alt="Milk" width="460" height="640"
+     class="alignright radius around-shadow effect">
+</body>
+</html>

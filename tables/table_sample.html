@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulka s atributy</title>
+    <style>
+        table {
+            border: 2px solid black; /* Nastavení okraje tabulky */
+            border-collapse: collapse; /* separate Sloučení okrajů buněk a tabulky */
+            border-spacing: 10px; /* Vzdálenost mezi buňkami (nepoužívá se při border-collapse: collapse) */
+            background-image: url('https://www.maxmax.cz/images/detailed/400/Detsky_obrazek_MAX_-_vzor_136-uprav.jpg'); /* Nastavení pozadí tabulky jako obrázek */
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black; /* Nastavení okraje buněk */
+            padding: 10px;
+        }
+        td.empty-cell {
+            empty-cells: show; /* Zobrazení okrajů prázdných buněk */
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabulka s různými atributy</h1>
+    <table>
+        <tr>
+            <th>Sloupec 1</th>
+            <th>Sloupec 2</th>
+            <th>Sloupec 3</th>
+        </tr>
+        <tr>
+            <td>Obsah 1</td>
+            <td>Obsah 2</td>
+            <td>Obsah 3</td>
+        </tr>
+        <tr>
+            <td>Obsah 4</td>
+            <td class="empty-cell"></td> <!-- Prázdná buňka -->
+            <td>Obsah 6</td>
+        </tr>
+    </table>
+</body>
+</html>

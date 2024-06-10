@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-bottom: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Static positioning */
+        .static-box {
+            position: static;
+            background-color: lightblue;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        /* Relative positioning */
+        .relative-box {
+            position: relative;
+            top: 20px;
+            left: 30px;
+            background-color: lightgreen;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        /* Absolute positioning */
+        .relative-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+            margin-bottom: 20px;
+        }
+        .absolute-box {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: lightcoral;
+            width: 100px;
+            height: 100px;
+        }
+        /* Fixed positioning */
+        .fixed-box {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: lightpink;
+            width: 100px;
+            height: 100px;
+        }
+        .content {
+            height: 2000px; /* Pro umožnění posouvání stránky */
+        }
+        /* Sticky positioning */
+        .sticky-box {
+            position: -webkit-sticky; /* Pro Safari */
+            position: sticky;
+            top: 10px;
+            background-color: lightyellow;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Positioning Elements</h1>
+
+    <div class="container">
+        <h2>Static Positioning</h2>
+        <div class="static-box">Static</div>
+    </div>
+
+    <div class="container">
+        <h2>Relative Positioning</h2>
+        <div class="relative-box">Relative</div>
+    </div>
+
+    <div class="container">
+        <h2>Absolute Positioning</h2>
+        <div class="relative-container">
+            <div class="absolute-box">Absolute</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Fixed Positioning</h2>
+        <div class="fixed-box">Fixed</div>
+    </div>
+
+    <div class="container">
+        <h2>Sticky Positioning</h2>
+        <div class="sticky-box">Sticky</div>
+    </div>
+
+    <div class="content">
+        Posuňte stránku, aby se zobrazil efekt fixed a sticky pozicování.
+    </div>
+</body>
+</html>

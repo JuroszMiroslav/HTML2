@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            /* set the table's width in % of the body width */
+            width: 80%;
+            /* to prevent the table from extra shrinking or stretching when resizing the browser window, write the minimum and maximum width in pixels for them */
+            min-width: 650px;
+            max-width: 800px;
+            /* place the table in the middle, horizontally */
+            margin: 0 auto;
+            /* remove margins between cells */
+            border-collapse: collapse;
+            /* set a system font for the text */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption {
+            /* align the caption right, horizontally */
+            text-align: right;
+            /* transform text to uppercase */
+            text-transform: uppercase;
+            /* set the color of the table caption */
+            color: #666666;
+            /* set the font weight */
+            font-weight: 700;
+        }
+
+        /* transform column headers in the header and footer to uppercase and set them to white */
+        th {
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+
+        /* set a shade of gray for the first cell of column headers in the header and footer */
+        tr th: first-child {
+            color: #666666;
+        }
+
+        /* center horizontally all the cells of the table and set padding at the top and bottom for them */
+        td, th {
+            text-align: center;
+            padding:1em0;
+        }
+
+        /* align left the first cell of each row, set gray and padding left for them */
+        tr td: first-child {
+            text-align: left;
+            color: #666666;
+            padding-left: 0.7em;
+        }
+
+        /* the content of the main cells - span elements - should be designed as follows: */
+        span {
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 1.2em;
+            display: inline-block;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+        }
+
+        /* set a background color and width for each column into which we have split our table; four columns will have the same width, and the width of the first column will be calculated automatically */
+        .col-1 {
+            background-color: #dddddd;
+            width: auto;
+        }
+
+        .col-2 {
+            background-color: #17d0d3;
+            width: 17%;
+        }
+
+        .col-3 {
+            background-color: #8ac149;
+            width: 17%;
+        }
+
+        .col-4 {
+            background-color: #feca28;
+            width: 17%;
+        }
+
+        .col-5 {
+            background-color: #f44236;
+            width: 17%;
+        }
+
+        thead {
+            /* set the bottom border for the table's header */
+            border-bottom: 1px solid #ebebeb;
+        }
+
+        tfoot{
+            /* set the top border for the table's footer */
+            border-top: 1px solid #ebebeb;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <caption>Title table</caption>
+        <colgroup>
+            <col class="col-1">
+            <col class="col-2">
+            <col class="col-3">
+            <col class="col-4">
+            <col class="col-5">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>specification</th>
+                <th>free</th>
+                <th>basic</th>
+                <th>standard</th>
+                <th>premium</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>$ 0.00</th>
+                <th>$ 9.99</th>
+                <th>$ 19.99</th>
+                <th>$ 29.99</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Lorem ipsum dolor</td>
+                <td>+</td>
+                <td>+</td>
+                <td>+</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>Ratione deserunt modi</td>
+                <td>+</td>
+                <td>+</td>
+                <td>+</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>Vel maiores odio</td>
+                <td>-</td>
+                <td>+</td>
+                <td>+</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>Minus vel aperiam natus</td>
+                <td>-</td>
+                <td>-</td>
+                <td>+</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>Provid minima sapiente</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>Eveniet eaque excepturi</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>+</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

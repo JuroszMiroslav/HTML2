@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Formulář</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea, select {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registrace</h1>
+    <form action="/submit" method="post">
+        <label for="username">Uživatelské jméno:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Heslo:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="age">Věk:</label>
+        <input type="number" id="age" name="age" min="18" required>
+
+        <label for="gender">Pohlaví:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Muž</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Žena</label>
+
+        <label for="country">Země:</label>
+        <select id="country" name="country" required>
+            <option value="cz">Česká republika</option>
+            <option value="sk">Slovensko</option>
+            <option value="de">Německo</option>
+        </select>
+
+        <label for="message">Zpráva:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+        <input type="checkbox" id="subscribe" name="subscribe" value="newsletter">
+        <label for="subscribe">Přihlásit se k odběru novinek</label>
+
+        <button type="submit">Odeslat</button>
+        <button type="reset">Resetovat</button>
+    </form>
+</body>
+</html>

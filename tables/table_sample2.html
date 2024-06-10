@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulka s různými velikostmi buněk</title>
+    <style>
+        table {
+            border: 2px solid black; /* Nastavení okraje tabulky */
+            width: 50%;
+            border-collapse: collapse; /* Sloučení okrajů buněk a tabulky */
+        }
+        th, td {
+            border: 1px solid black; /* Nastavení okraje buněk */
+            padding: 10px;
+            text-align: center; /* Zarovnání textu na střed */
+        }
+        /* Specifické velikosti buněk */
+        .cell-small {
+            width: 5px;
+            height: 5px;
+        }
+        .cell-medium {
+            width: 2vw;
+            height: 11vw;
+        }
+        .cell-large {
+            width: 100px;
+            height: 100px;
+        }
+        .cell-xlarge {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabulka s různými velikostmi buněk</h1>
+    <table>
+        <tr>
+            <th class="cell-small">Malá</th>
+            <th class="cell-medium">Střední</th>
+            <th class="cell-large">Velká</th>
+            <th class="cell-xlarge">Extra velká</th>
+        </tr>
+        <tr>
+            <td class="cell-small">1</td>
+            <td class="cell-medium">2</td>
+            <td class="cell-large">3</td>
+            <td class="cell-xlarge">4</td>
+        </tr>
+        <tr>
+            <td class="cell-small">5</td>
+            <td class="cell-medium">6</td>
+            <td class="cell-large">7</td>
+            <td class="cell-xlarge">8</td>
+        </tr>
+    </table>
+</body>
+</html>
